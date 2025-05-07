@@ -1,0 +1,91 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+  
+}
+
+.container {
+  color: #273549;
+  background-color: #ECFDF5;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 550px;
+  height: 550px;
+  border: 6px solid #10B981;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start; 
+}
+
+
+.container .pass-results {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; 
+  width: 100%;
+}
+input {
+  width: 50%;
+}
+
+span {
+  color: #10B981;
+}
+h1 {
+  color: #2B283A;
+  font-size: 55px;
+  font-weight: 800;
+  font-style: bold;
+  margin-bottom: 10;
+}
+#small-p {
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+hr {
+  border: 1px solid #273549;
+  width: 100%;
+  height: 1px;
+  background-color: #273549;
+  border-radius: 1px;
+}
+
+#gen-pass {
+  color: white;
+  border: 1px solid #10B981;
+  background-color: #10B981;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 12px 28px;
+}
+
+#pass1-el, #pass2-el {
+  margin: 2px auto;
+  color: #10B981;
+  background-color: #273549;
+  padding: 12px 28px;
+  border: 1px solid #2732549;
+  border-radius: 8px;
+  font-size: 20px;
+  width: 100%;
+}
+#pass1-el {
+  margin-right: 8px;
+}
+#pass2-el {
+  margin-left: 8px;
+}
